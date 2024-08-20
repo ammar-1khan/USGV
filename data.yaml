@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Grenade', 'Gun', 'Knife', 'Pistol', 'handgun', 'rifle']
+
+roboflow:
+  workspace: joo-assalim
+  project: fireguns-and-knifes-detector
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/joo-assalim/fireguns-and-knifes-detector/dataset/1
